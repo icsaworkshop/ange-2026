@@ -1,1 +1,2 @@
-# ange-2026
+# ANGE - Architecting Next Generation of Ecosystem (ANGE)
+

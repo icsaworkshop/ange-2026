@@ -1,10 +1,722 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Architecting Next Generation of Ecosystems</title>
+
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-test
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html"><h1>ICSA 2026</h1></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-intro">About</a></li>
+                        <li><a class="page-scroll" href="#section-speaker">Topics</a></li>
+                        <li><a class="page-scroll" href="#section-speaker">Committee</a></li>
+                        <li><a class="page-scroll" href="#section-intro">Important dates</a></li>
+                        <li><a class="page-scroll" href="#section-submission">Submission</a></li>
+                          <li><a class="page-scroll" href="#section-venue">Venue</a></li>
+                        <li><a class="page-scroll" href="#section-ajenda">Program</a></li>
+                        <li><a class="page-scroll" href="#section-past">Past Editions</a></li>
+                        <li><a class="page-scroll" href="#section-contact">Contacts</a></li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div class="jumbotron text-center">
+        <div class="content">
+            <div class="event-date">June 22-26 2026, Amsterdam, Netherlands</div>
+            <h1>Architecting Next Generation of Ecosystems</h1>
+            <p class="lead">Co-located with 23rd IEEE International Conference on Software Architecture (ICSA)</p>
+            <a  href="index.html#section-submission" class="btn btn-default btn-lg">Submission Details</a>
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+
+
+    <section id="section-intro" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p align="justify">The <a href="#">1th International Workshop on Architecting Next Generation of Ecosystems (ANGE) </a> is a satellite event at ACM/IEEE <a href="https://conf.researchr.org/home/models-2024">27th International Conference on Model Driven Engineering Languages and Systems (MODELS) </a></p>
+                    <p align="justify" class="lead">
+                    Automotive software was born less than 50 years ago. Within just 50 years, the significance, size, and development costs of automotive software has grown to staggering levels. The automotive industry is increasingly relying on and becoming a driver of advances in system and software development and engineering methods, techniques and tools to deal with the many unique challenges the automotive industry faces. Significant advances have been made dealing with many of these challenges involving, for instance, variability modeling and software product lines, standardisation, model-based development, cyber-physical systems, and systems engineering. However, the remaining challenges are compounded by future trends.
+                    System and software complexities continue to grow and the industry is being forced to incorporate disruptive technology such as electrification, machine learning, autonomous vehicles and, in the near future, support for vehicle-to-vehicle and vehicle-to-infrastructure communications and collaborations.
+                    <br> <br>
+                    A central objective of the workshop is to provide a forum for practitioners and researchers from industry and academia in which novel, innovative, model-based solutions to current and future challenges in automotive system and software development can be presented and discussed. Another important objective is the identification of new research problems arising from current trends.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                        <strong>ORGANIZERS:</strong><br>
+                        <a href="http://www.es.mdh.se/staff/2662-Alessio_Bucaioni">Alessio Bucaioni (Main contact)</a><br>
+                        Mälardalen University (Sweden)<br>
+                        <hr>
+                        <a href="https://cs.uwaterloo.ca/~jmatlee/">Joanne Atlee</a><br>
+                        University of Waterloo (Canada)<br>
+                        <hr>
+                        <a href="http://research.cs.queensu.ca/home/dingel/">Juergen Dingel</a><br>
+                        Queen’s University (Canada)
+                        <hr>
+                      <a href="http://www.cas.mcmaster.ca/~kokalys/">Sahar Kokaly</a><br>
+                        General Motors (Canada)
+                    <hr>
+                    <strong>IMPORTANT DATES (AoE)</strong>
+                    <ul>
+                    <!--<li><b>Paper submission:</b><strike>July 17, 2018</strike> July 24, 2018 (extended)</li>-->
+                    <!--<li><b>Abstract submission:</b><strike> July 3, 2019</strike> July 10, 2019</li>-->
+                    <li><strike>Paper</strike> Abstract submission: July 5, 2024</li>
+                    <li><mark>NEW</mark>Paper submission: July 12, 2024</li>
+                    <li>Notification to authors: August 7, 2024</li>
+                    <li>Camera ready version: August 16, 2024</li>
+                    <li>(Tentative) Workshop date: September 22 or 23, 2024</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- .about-event -->
+
+    <section id="section-speaker" class="section-wrapper team gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-title">
+                        <h1>PROGRAM COMMITTEE</h1>
+                    </div>
+                <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <td class="tg-yw4l">Waseem</td>
+    <td class="tg-yw4l">Anwar</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Ludovico</td>
+    <td class="tg-yw4l">Iovino</td>
+    <td class="tg-yw4l">Gran Sasso Science Institute</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Romina</td>
+    <td class="tg-yw4l">Eramo</td>
+    <td class="tg-yw4l">University of Teramo</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-yw4l">Jianlin</td>
+    <td class="tg-yw4l">Shi</td>
+    <td class="tg-yw4l">Volvo Cars</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Ramesh</td>
+    <td class="tg-yw4l">S</td>
+    <td class="tg-yw4l">General Motors</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l"> Md Tawhid Bin</td>
+    <td class="tg-yw4l">Waez</td>
+    <td class="tg-yw4l">Ford</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Hans</td>
+    <td class="tg-yw4l">Vangheluwe</td>
+    <td class="tg-yw4l">Antwerp University</td>
+  </tr> -->
+  <tr>
+    <td class="tg-yw4l">Betty H.C.</td>
+    <td class="tg-yw4l">Cheng</td>
+    <td class="tg-yw4l">Michigan State University</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-yw4l">Merhnoosh</td>
+    <td class="tg-yw4l">Askarpour</td>
+    <td class="tg-yw4l">General Motors</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Martin</td>
+    <td class="tg-yw4l">Orehek</td>
+    <td class="tg-yw4l">Wissenschaften München</td>
+  </tr> -->
+  <tr>
+    <td class="tg-yw4l">Bran</td>
+    <td class="tg-yw4l">Selic</td>
+    <td class="tg-yw4l">Malina Software Corporation</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Andeas</td>
+    <td class="tg-yw4l">Rausch</td>
+    <td class="tg-yw4l">Universität Clausthal Institut</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Matthias</td>
+    <td class="tg-yw4l">Tichy</td>
+    <td class="tg-yw4l">Universität Ulm</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-yw4l">Monika</td>
+    <td class="tg-yw4l">Jaskolka</td>
+    <td class="tg-yw4l">McMaster University</td>
+  </tr> -->
+  <tr>
+    <td class="tg-yw4l">Predrag</td>
+    <td class="tg-yw4l">Filipovikj</td>
+    <td class="tg-yw4l">Scania Group</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Enxhi</td>
+    <td class="tg-yw4l">Ferko</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Elena</td>
+    <td class="tg-yw4l">Lisova</td>
+    <td class="tg-yw4l">Volvo CE</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Luca</td>
+    <td class="tg-yw4l">Berardinelli</td>
+    <td class="tg-yw4l">Linz University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Javier Luis Canovas</td>
+    <td class="tg-yw4l">Izquierdo</td>
+    <td class="tg-yw4l">Universitat Oberta de Catalunya</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Moussa</td>
+    <td class="tg-yw4l">Amrani</td>
+    <td class="tg-yw4l">University of Namur</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Joanne</td>
+    <td class="tg-yw4l">Atlee</td>
+    <td class="tg-yw4l">University of Waterloo</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Alessio</td>
+    <td class="tg-yw4l">Bucaioni</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Marsha</td>
+    <td class="tg-yw4l">Chechik</td>
+    <td class="tg-yw4l">University of Toronto</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Amleto</td>
+    <td class="tg-yw4l">Di Salle</td>
+    <td class="tg-yw4l">Gran Sasso Science Institute</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Juergen</td>
+    <td class="tg-yw4l">Dingel</td>
+    <td class="tg-yw4l">Queen’s University</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-yw4l">Mark</td>
+    <td class="tg-yw4l">G.J. van den Brand</td>
+    <td class="tg-yw4l">Eindhoven University of Technology</td>
+  </tr> -->
+  <tr>
+    <td class="tg-yw4l">Stefan</td>
+    <td class="tg-yw4l">Kugele</td>
+    <td class="tg-yw4l">Technical University of Munich</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Maged</td>
+    <td class="tg-yw4l">Khalil</td>
+    <td class="tg-yw4l">Continental</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Imad</td>
+    <td class="tg-yw4l">Berrouyne</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Malvina</td>
+    <td class="tg-yw4l">Latifaj</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Johan</td>
+    <td class="tg-yw4l">Cederbladh</td>
+    <td class="tg-yw4l">Mälardalen University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Alex</td>
+    <td class="tg-yw4l">Pretschner</td>
+    <td class="tg-yw4l">Technical University of Munich</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Joel</td>
+    <td class="tg-yw4l">Greeneyer</td>
+    <td class="tg-yw4l">FHDW Hannover</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Falk</td>
+    <td class="tg-yw4l">Howar</td>
+    <td class="tg-yw4l">Dortmund University</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Sahar</td>
+    <td class="tg-yw4l">Kokali</td>
+    <td class="tg-yw4l">General Motors</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-yw4l">Javier</td>
+    <td class="tg-yw4l">Troya</td>
+    <td class="tg-yw4l">Universidad de Sevilla</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Ramin Tavakoli</td>
+    <td class="tg-yw4l">Kolagari</td>
+    <td class="tg-yw4l">Nuernberg University</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Alan</td>
+    <td class="tg-yw4l">Wassyng</td>
+    <td class="tg-yw4l">McMaster University</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-yw4l">Ina</td>
+    <td class="tg-yw4l">Schaefer</td>
+    <td class="tg-yw4l">Braunschweig University of Technology</td>
+  </tr> -->
+</table></div>
+                    <!--<ul>
+                   <li><h3>Vasilios Andrikopoulos <small>University of Stuttgart, Germany</small></h3></li>
+                  <li><h3>Alessandra Bagnato<small> Softeam, France</small></h3></li>
+ <li><h3>Mireille Blay-Fornarino<small> Université Nice Sophia Antipolis, I3S, France</small></h3></li>
+ <li><h3>Francis Bordeleau<small> Canada</small></h3></li>
+ <li><h3>Antonio Cicchetti<small> Mälardalen University, Sweden</small></h3></li>
+ <li><h3>Davide Di Ruscio<small> Università degli Studi dell’Aquila, Italy</small></h3></li>
+ <li><h3>Zinovy Diskinz<small> McMaster University, University of Water-loo, Canada</small></h3></li>
+ <li><h3>Anne Etien<small> University of Lille 1, France</small></h3></li>
+ <li><h3>Jesus Garcia-Molina<small> Universidad de Murcia, Spain</small></h3></li>
+ <li><h3>Sebastien Gerard<small> CEA, France</small></h3></li>
+ <li><h3>Holger Giese<small> Hasso-Plattner-Institut für Softwaresystemtech-nik GmbH, Germany</small></h3></li>
+ <li><h3>Je  Gray<small>University of Alabama, USA</small></h3></li>
+ <li><h3>Rich Hilliard<small> IEEE Computer Society, USA</small></h3></li>
+ <li><h3>Ludovico Iovino<small> Gran Sasso Science Institute, Italy</small></h3></li>
+ <li><h3>Udo Kelter<small> University of Siegen, Germany</small></h3></li>
+ <li><h3>Philip Langer<small> Eclipse Source, Austria</small></h3></li>
+ <li><h3>Olivier Le Goaer<small> LIUPPA, Université de Pau et des Pays del’Adour, France</small></h3></li>
+ <li><h3>Shahar Maoz<small> Tel Aviv University, Israel</small></h3></li>
+ <li><h3> Salvador Martínez<small> INRIA, France</small></h3></li>
+ <li><h3>Tom Mens<small> University of Mons, Belgium</small></h3></li>
+ <li><h3>Richard Paige<small> University of York, UK</small></h3></li>
+                 <li><h3>Bernhard Rumpe<small> RWTH Aachen University, Germany </small></h3></li>
+                      <li><h3>Jesús Sánchez Cuadrado<small> Universidad de Murcia, Spain </small></h3></li>
+                          <li><h3> Martina Seidl<small> Johannes Kepler University Linz, Austria </small></h3></li>
+                               <li><h3>Massimo Tisi<small> Ecole des Mines de Nantes, France</small></h3></li>
+ <li><h3>Juha-Pekka Tolvanen<small> MetaCase, Finland</small></h3></li>
+ <li><h3>Antonio Vallecillo<small> Universidad de Málaga, Spain • Konrad Wieland, Sparx Systems, Austria</small></h3></li>
+ <li><h3>Manuel Wimmer<small> TU Wien, Austria </small></h3></li>
+                        </ul>-->
+                </div>
+               <div class="col-md-6">
+                    <div class="section-title">
+                        <h1>TOPICS OF INTEREST</h1>
+                    </div>
+                    <div>
+                        <p align="justify">
+                        Modeling and model-based approaches to system and software development already have a long tradition in the automotive industry due to, e.g., the high need for abstraction, standardisation and interoperability.
+                        It is reasonable to believe that advances in modeling will be key to further advancing automotive system and software engineering as well.
+                        MASE 2024 encourages submissions presenting novel and insightful descriptions of applications of modeling techniques to problems arising in the context of automotive system and software engineering.
+                        Topics of interest include, but are not limited to:
+                        </p>
+                    </div>
+
+                    <ul style="list-style-type: circle;">
+<li>Advanced Driver Assist Systems and Autonomous Driving</li>
+<li>Emerging technologies such as big data, mobile apps, social media, open source software, and vehicle networks</li>
+<li>Architectures and component-based development and relevant technologies such as AUTOSAR, EAST-ADL, and UML,</li>
+<li>Real-time systems and support for multi-core, mixed criticality and IP, and dynamic scheduling,</li>
+<li>Quality assurance and support for different quality attributes such as functional and non-functional correctness, interoperability, fault-tolerance, maintainability, and reusability,</li>
+<li>Safety and security and support for safety standards such as ISO 26262</li>
+<li>Requirements and traceability</li>
+<li>Variability and configuration management</li>
+<li>Synthesis, transformation, iterative development, integration, and code generation</li>
+<li>Development processes and support for globally distributed development</li>
+</ul>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .team -->
+
+
+
+
+    <section id="section-submission" class="section-wrapper pricing-section white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>SUBMISSION GUIDELINES</h1>
+                    </div>
+                    <div>
+                        <p align="justify">Authors are invited to submit:</p>  </div>
+                        <ol>
+                          <li><strong>Technical papers</strong> providing novel contributions relevant to the workshop topics.</li>
+                          <li><strong>Experience papers</strong> describing the use of modeling in an automotive context</li>
+                          <li><strong>Position papers</strong> on future research challenges and open problems.</li>
+                        </ol>
+                        <br>
+                        <p align="justify"> Both, <b>short papers</b> (not more than 5 pages,including references) and <b>full papers</b> (not more than 10 pages including references) are welcome.
+                          Contributions must be written in English and adhere to the  <a href="https://www.acm.org/publications/proceedings-template">ACM Master Article Template</a>.
+                          All submissions will be reviewed by at least three PC members who are expert or have been experiencing in the related field for years.
+                          Accepted papers will be published as joint workshop proceedings in the ACM Digital Library.
+                          <b>Selected best papers will be nominated for submitting an extended version of their work to the <a href="https://www.athena-publishing.com/journals/jseas">Journal of Software Engineering for Autonomous Systems</a></b>
+                        </p>
+                          <br><br>
+                          <h1 align="center"><a href=" https://easychair.org/conferences/?conf=mase24">SUBMIT NOW</a></h1>
+                </div>
+            </div>
+
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .pricing-section -->
+<section id="section-ajenda" class="section-wrapper section-ajenda">
+       <div class="container">
+            <div class="row">
+             <div class="col-md-13">
+                 <div class="section-title">
+                        <h1>PROGRAM</h1>
+                        <!-- <h1>To be decided</h1> -->
+                        <h3>Monday September 23, CET</h1>
+                    </div>
+                 <div class="agenda">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th class="col-md-3">Date-Time</th>
+                        <th class="col-md-9">Talk/Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td >
+
+                            <div >09:00 - 09:10</div>
+                        </td>
+
+                        <td >
+                            <div >
+
+                               <i class="fas fa-chart-pie">&nbsp;Opening Remarks</i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+
+                            <div >09:10 - 10:00</div>
+                        </td>
+
+                        <td >
+                            <div >
+                               <i class="fas fa-chart-pie">&nbsp;Key note</i>
+                            </div>
+                            <div >
+                              <span>Dr. Vera Pantelic, McMaster University</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+
+                            <div >10:00 - 10:25</div>
+                        </td>
+
+                        <td >
+                            <div >
+                            <span><b>Consistency Is Key: Can Your Product Line Realise What It Models?</b></span>
+                              <span>Philip Ochs, Tobias Pett and Ina Schaefer</span>
+                           </div>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td >
+
+                           <div >10:30 - 11:00</div>
+                       </td>
+
+                       <td >
+                           <div >
+
+                               <i class="fas fa-coffee">&nbsp;Coffee Break</i>
+                           </div>
+                       </td>
+                   </tr>
+                    <tr>
+                        <td >
+
+                            <div >11:00 - 11:25</div>
+                        </td>
+
+                        <td >
+                          <div >
+                          <span><b>Industrial Adoption of MDE for Embedded Control Software: A Qualitative Inquiry in the German Automotive Industry</b></span>
+                            <span>Harald Störrle</span>
+                         </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+
+                            <div >11:25 - 11:50</div>
+                        </td>
+
+                        <td >
+                          <div >
+                          <span><b>Socio-technical Automotive Security Design Patterns: Applying a Stakeholder-Based Approach to Securing Self-Driving Vehicles</b></span>
+                            <span>Nick Polanco and Betty H.C. Cheng.</span>
+                         </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+
+                            <div >11:50 - 12:15</div>
+                        </td>
+
+                        <td >
+                          <div >
+                          <span><b>Evaluation of Automotive OTA Updates Using Assurance Cases</b></span>
+                            <span>Ali Raeisdanaei, Logan Murphy, Alessio Di Sandro, Mehrnoosh Askarpour, Torin Viger and Marsha Chechik. </span>
+                         </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td >
+
+                            <div >12:30 - 14:00</div>
+                        </td>
+
+                        <td >
+                            <div >
+
+                                <i class="fas fa-coffee">&nbsp;Lunch</i>
+                            </div>
+                        </td>
+                    </tr> -->
+                 <tr>
+                        <td >
+
+                            <div >14:00 - 14:25</div>
+                        </td>
+
+                        <td >
+                            <div >
+                            <span><b>A Tool For Feature-Requirement Traceability Using Requirement Canvas and Encapsulation</b></span>
+                            <span>Thomas Chiang, Richard Paige, Alan Wassyng and Sébastien Mosser</span>
+                         </div>
+                        </td>
+                    </tr>
+                <tr>
+                        <td >
+
+                            <div >14:25 - 14:50</div>
+                        </td>
+
+                        <td >
+                          <div >
+                          <span><b> Spatio-Temporal Framework for Verifying Safety Rules in Autonomous Vehicles</b></span>
+                          <span>Maksym Labzhaniia, Julien Deantoni, Marie-Agnès Peraldi-Frati and Frédéric Mallet</span>
+                       </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+
+                    <td>14:540 - 15:00</td><td><span><i class="far fa-handshake"> &nbsp; Wrap-up and Closing</i></span></td>
+                    </tr>
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+             </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section-past" class="section-wrapper client-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>PAST EDITIONS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <p align="center">
+                 <a href="https://www.es.mdh.se/mase2022/">MASE'22</a> (at MoDELS)
+              </p>
+              <p align="center">
+                 <a href="https://www.es.mdh.se/mase2020/">MASE'20</a> (at MoDELS)
+              </p>
+              <p align="center">
+                 <a href="https://www.es.mdh.se/mase2019/">MASE'19</a> (at MoDELS)
+              </p>
+                <p align="center">
+                   <a href="http://t3-necsis.cs.uwaterloo.ca/mase15/">MASE'15</a> (at MoDELS)
+                </p>
+              <!--  <div class="col-md-3 col-sm-4 col-xs-6 section-margin">
+                   <a href="http://www.models-and-evolution.com/2017/">MASE'15</a> (at MoDELS)
+                </div>-->
+            </div>
+        </div>
+        <!--end of .container -->
+    </section>
+    <!-- .client-logo -->
+
+
+    <section id="section-venue" class="section-wrapper  gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>THE VENUE</h1>
+                    </div>
+                    <div>
+
+
+                        <p align="center">
+                          <!-- The Workshop on Modeling in Automotive Software Engineering of <a href="http://www.modelsconference.org/">MODELS 2024</a>.
+                        MODELS is the premier conference series for model-based software and systems engineering which since 1998 has been covering all aspects of modeling, from languages and methods to tools and applications.
+                        <br> -->
+                        <b>MASE 2024 will be held </b> at the Science Park 2 & 3 buildings of the Johannes Kepler University (JKU) campus of Linz, in Austria.
+                        The JKU campus is located at Altenberger Straße 69, 4040, Linz, Austria.
+                      </p>
+<!-- #main-wrapper -->
+</div>
+</div>
+</div>
+</section>
+<!-- /.row-->
+
+
+<!-- .row-->
+<section id="section-contact" class="section-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="section-title" >
+    <h1>CONTACT US</h1>
+  </div>
+  <div>
+    <p align="center">In case of questions, contact us via an email to <a href="mailto:alessio.bucaioni@mdu.se">alessio.bucaioni@mdu.se</a></p>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+<!-- contact-section -->
+
+
+<footer class="footer">
+<div class="copyright-section">
+<div class="container">
+<div class="col-md-12">
+<div class="copytext text-center">MASE2024&copy; Conference. All rights reserved | Design By: <a href="https://uicookies.com">uiCookies</a> and Adapted by <a href="#">Ludovico Iovino and Alessio Bucaioni</a></div>
+</div>
+</div>
+<!-- .container -->
+</div>
+<!-- .copyright-section -->
+</footer>
+<!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
 </body>
 </html>
