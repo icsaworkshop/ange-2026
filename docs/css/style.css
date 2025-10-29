@@ -780,7 +780,7 @@ background-color:#f0f1f3;
 
 @media (max-width: 768px) {
   .jumbotron {
-    background-image: url("../angeicon.png") !important; /* new image for mobile */
+    background-image: url("./icsa-tiny.png") !important; /* new image for mobile */
     background-size: contain;        /* show more of the full image */
     background-position: center top; /* center and show top */
     background-attachment: scroll;   /* avoid fixed bug on phones */
@@ -800,7 +800,7 @@ background-color:#f0f1f3;
 /* Very small screens (narrow phones) */
 @media (max-width: 480px) {
   .jumbotron {
-    background-image: url("../angeicon.png") !important;
+    background-image: url("./icsa-tiny.png") !important;
     background-size: contain;
     background-position: top center;
     height: 52vh;
