@@ -778,45 +778,32 @@ background-color:#f0f1f3;
     }
 
 
-/* === Mobile-friendly hero background adjustments (add at end of style.css) === */
-
-/* Large tablets / small laptops: reduce parallax issues */
-@media (max-width: 1024px) {
-  .jumbotron {
-    background-attachment: scroll;   /* avoid mobile/Safari glitches */
-    background-position: 50% 15%;    /* show more of the upper area */
-  }
-}
-
-/* Tablets and most phones */
 @media (max-width: 768px) {
   .jumbotron {
-    background-attachment: scroll;   /* disable fixed on mobile */
-    background-size: contain;        /* show more of the whole image */
-    background-position: top center; /* keep the focal point visible */
-    height: 58vh;                    /* slightly shorter hero */
+    background-image: url("../angeicon.png") !important; /* new image for mobile */
+    background-size: contain;        /* show more of the full image */
+    background-position: center top; /* center and show top */
+    background-attachment: scroll;   /* avoid fixed bug on phones */
+    height: 58vh;                    /* smaller hero height */
     min-height: 440px;
   }
+
   .jumbotron::before {
-    background: rgba(0,0,0,0.25);    /* a bit lighter overlay on small screens */
+    background: rgba(0,0,0,0.25);    /* slightly lighter overlay for readability */
   }
+
   .jumbotron .content {
     padding: 0 6%;
-    transform: translateY(-50%);     /* keep vertical centering */
   }
 }
 
-/* Small phones */
+/* Very small screens (narrow phones) */
 @media (max-width: 480px) {
   .jumbotron {
+    background-image: url("../angeicon.png") !important;
+    background-size: contain;
+    background-position: top center;
     height: 52vh;
     min-height: 380px;
-    background-position: top center;
-  }
-  .jumbotron .content h1 {
-    font-size: 24px;
-  }
-  .jumbotron .content p.lead {
-    font-size: 14px;
   }
 }
