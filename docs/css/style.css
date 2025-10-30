@@ -780,16 +780,15 @@ background-color:#f0f1f3;
 
 @media (max-width: 768px) {
   .jumbotron {
-    background-image: url("./background-tiny.png") !important; /* new image for mobile */
-    background-size: contain;        /* show more of the full image */
-    background-position: center top; /* center and show top */
-    background-attachment: scroll;   /* avoid fixed bug on phones */
-    height: 58vh;                    /* smaller hero height */
+    background: url("./background-tiny.png") no-repeat center top !important;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 58vh;
     min-height: 440px;
   }
 
   .jumbotron::before {
-    background: rgba(0,0,0,0.25);    /* slightly lighter overlay for readability */
+    background: rgba(0, 0, 0, 0.25);
   }
 
   .jumbotron .content {
@@ -797,15 +796,14 @@ background-color:#f0f1f3;
   }
 }
 
-/* Very small screens (narrow phones) */
 @media (max-width: 480px) {
   .jumbotron {
-    background-image: url("./background-tiny.png") !important;
+    background: url("./background-tiny.png") no-repeat top center !important;
     background-size: contain;
-    background-position: top center;
     height: 52vh;
     min-height: 380px;
   }
 }
+
 
 
